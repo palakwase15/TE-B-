@@ -1,12 +1,7 @@
-public class Pattern2 {
-    public static void main(String[] args) {
+# Pattern 2
+for i in range(5, 0, -1):
+    for j in range(i):
+        print("*", end=" ")
+    print()
 
-        for(int i = 5; i >= 1; i--) {
-            for(int j = 1; j <= i; j++) {
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
-
-    }
-}
+print()
