@@ -1,12 +1,9 @@
-public class Factorial {
-    public static void main(String[] args) {
-        int n = 5;
-        int fact = 1;
+# Factorial Program
 
-        for(int i = 1; i <= n; i++) {
-            fact = fact * i;
-        }
+n = 5
+fact = 1
 
-        System.out.println("Factorial = " + fact);
-    }
-}
+for i in range(1, n + 1):
+    fact = fact * i
+
+print("Factorial =", fact)
